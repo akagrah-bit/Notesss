@@ -1,0 +1,105 @@
+Ethical Hacking 
+
+ 
+
+Navigating the file system 
+
+pwd — Displays your current directory. 
+
+ls — Lists files and directories. 
+
+ls -l (detailed view) 
+
+ls -a (shows hidden files) 
+
+cd — Changes the current directory. 
+
+ 
+
+Examples: 
+
+cd /path/to/directory (absolute path) 
+
+cd Documents (relative path) 
+
+cd .. (move up one directory) 
+
+cd ~ (go to home directory) 
+
+Tips: 
+
+touch filename.txt — Creates an empty file. 
+
+mkdir myfolder — Creates a new directory. 
+
+Read: 
+
+cat filename.txt — Displays the contents of a file. 
+
+less filename.txt — Allows you to scroll through a file. 
+
+ 
+
+Update: 
+
+nano filename.txt — Opens a file in the Nano text editor. 
+
+echo "Text" &gt;&gt; filename.txt — Appends text to a file. 
+
+Delete: 
+
+rm filename.txt — Removes a file. 
+
+rmdir myfolder — Removes an empty directory. 
+
+rm -r myfolder — Removes a directory and its contents recursively. 
+
+3. File Permissions and chmod 
+
+Understanding Permissions: 
+
+Use ls -l to view file permissions. 
+
+Permissions are shown as -rwxrwxrwx, divided into User (u), Group (g), and Others (o). 
+
+r — Read (4) 
+
+w — Write (2) 
+
+x — Execute (1) 
+
+Changing Permissions: 
+
+Symbolic method: 
+
+chmod u+x filename — Adds execute permission for the user. 
+
+chmod g-w filename — Removes write permission from the group. 
+
+Numeric method: 
+
+chmod 755 filename — Sets permissions to rwxr-xr-x. 
+
+Online resources like "Understanding chmod in Linux" can be very helpful. 
+
+ 
+
+4. Using sudo for Superuser Privileges 
+
+Basics: 
+
+sudo [command] — Runs a command with superuser privileges. 
+
+Example: sudo apt update — Updates package lists. 
+
+ 
+
+ GIT username 
+
+Akagrah kumar 
+
+Login 
+
+Akagrahk.kumaratgmail.com¸ 
+
+Ak-game file name  
