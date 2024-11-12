@@ -105,5 +105,83 @@ Akagrahk.kumaratgmail.com¸
 Ak-game file name  
 
 
-Bash Scripting
-new info here
+
+
+
+
+
+
+
+
+
+                                           Self Research
+
+
+         Bash Scripting
+
+
+What is a Bashscript?
+A Bash script is a text file containing a sequence of commands written in the Bash
+
+Key Features of Bash Scripts:
+Automation: Run a series of commands in sequence to automate tasks like file management, backups, or deployments.
+Variables: Store and manipulate data, such as file paths or user input.
+Loops and Conditionals: Perform repetitive actions with for or while loops, and make decisions using if-else statements.
+Functions: Define reusable sections of code to organize the script.
+Portability: Most Linux distributions support Bash, making scripts easily portable across systems.
+
+Basic Structure of a Bash Script:
+Shebang: The first line usually starts with #!/bin/bash, which tells the system to use Bash to interpret the script.
+Commands: Each line in the script is typically a command, like echo, ls, or cd, along with arguments or options.
+Execution: After saving the script, make it executable by running chmod +x scriptname.sh and then execute it with ./scriptname.sh.
+
+Example
+#!/bin/bash
+# This is a simple Bash script
+echo "Hello, World!"   # Print a message
+name="User"            # Set a variable
+echo "Welcome, $name"  # Use the variable
+
+
+What are the uses of bash scripting in Linux?
+
+. Automation of Routine Tasks
+Bash scripts automate repetitive tasks, such as cleaning up files, managing backups, and processing logs.
+Routine administrative tasks, like user management and system updates, can be scheduled with a cron job to run scripts periodically.
+
+2. System Administration
+Server Monitoring: Scripts can track server metrics (e.g., CPU, memory usage) and send alerts when values exceed a threshold.
+
+User and Permission Management: Quickly create users, assign permissions, and manage access rights across a system.
+Package Management: Install, update, or remove software packages across multiple servers with a single script.
+
+3. Data Processing and Parsing Text Files
+Use Bash with tools like awk, sed, and grep to manipulate and analyze large text files, logs, and CSV data.
+Automate data extraction, transformation, and loading (ETL) tasks for larger data workflows.
+
+4. Software Development and Deployment
+Build Automation: Run build commands, compile code, run tests, and package software for deployment.
+Continuous Integration/Continuous Deployment (CI/CD): Bash scripts can handle parts of the CI/CD pipeline, automating testing, deployment, and versioning.
+Environment Setup: Set up development environments by configuring paths, installing dependencies, and setting up Docker containers.
+
+5. Network Management
+Manage network configurations, IPs, firewall rules, and VPN connections.
+Bash scripts are useful for running network diagnostic tools, pinging servers, checking connectivity, or testing network speeds.
+
+6. Backup and Recovery
+Automated backups of databases, directories, or files, which can be saved to remote servers or cloud storage.
+Schedule regular backups and perform incremental backups to reduce storage needs.
+
+7. Task Scheduling
+Use cron in combination with Bash scripts to run periodic tasks, such as daily updates, weekly backups, or regular data processing.
+
+8. System Information Gathering
+Retrieve and summarize system information, like disk usage, memory stats, and active processes, which can be helpful for diagnostics or performance monitoring.
+
+9. File Management
+Organize files and directories, rename files in bulk, and search for specific patterns.
+Useful for archiving old files, clearing temporary directories, and compressing files to save space.
+
+10. Creating Command Line Utilities
+Bash scripts can serve as command-line tools, making custom utilities for specific workflows.
+They allow for argument parsing, which enables users to specify input options, making the scripts flexible and user-friendly.
