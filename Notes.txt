@@ -105,6 +105,19 @@ Akagrahk.kumaratgmail.com¸
 Ak-game file name  
 
 
+Octal Notation 
+
+drwxr r - x r - x user user <file name>
+
+Owner - rwx, Group - rwx, Other - rwx
+
+- r-- r-- r--
+r = 4
+w = 2
+x = 1
+
+
+
 
 
 
